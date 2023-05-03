@@ -1,0 +1,19 @@
+.contener{
+  max-width: 2400px;
+  margin: 0 auto;
+  /* background-repeat: ; */
+  background-size: cover;
+}
+.navbar{
+  border-bottom: 1px solid #000;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  gap: 10px;
+}
+.card{
+  height: 400px;
+  margin: 20px auto;
+}
